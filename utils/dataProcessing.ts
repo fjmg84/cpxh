@@ -145,7 +145,7 @@ export function groupByYear(entries: WorkEntry[]): YearlyData[] {
 export function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("es-ES", {
     style: "currency",
-    currency: "EUR",
+    currency: "USD",
   }).format(amount);
 }
 
